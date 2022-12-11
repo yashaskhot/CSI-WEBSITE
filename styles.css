@@ -1,0 +1,113 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(Untitled1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.middle {
+
+    margin-right: 960px;
+    padding-right: 400px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(15px);
+    width: 500px;
+    height: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    margin-left: 100px;
+    position: relative;
+    border: 10px;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+
+
+
+}
+
+.middleside {
+
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    z-index: 100;
+    position: relative;
+    left: 850px;
+    bottom: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.styled {
+    background-color: rgba(255, 255, 255, .15);
+    border: 1;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.sstyled {
+    color: white;
+    border: 1;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px 50px;
+    background-color: black;
+
+}
+
+
+.font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    font-size: small;
+}
+
+
+.text {
+
+    position: relative;
+    left: 600px;
+    bottom: 350px;
+
+    font-size: medium;
+    transition: margin-right 2s;
+    background-color: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(1px);
+    margin-right: 1700px;
+    z-index: 1;
+    transition-duration: 50ms;
+    transition: all 0.5 ease;
+    transition-delay: 50ms;
+
+
+
+
+}
+
+.second-blur {
+    width: 310px;
+    height: 200px;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(1px);
+    position: relative;
+    left: 880px;
+    bottom: 400px;
+    right: 100px;
+    border: 100px;
+    border-radius: 10px;
+
+}
